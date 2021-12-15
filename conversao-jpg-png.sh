@@ -15,7 +15,7 @@ do
 done
 }
 
-converte_imagem
+converte_imagem 2>erros_conversao.txt
 
 if [ $? -eq 0 ] 
 then
